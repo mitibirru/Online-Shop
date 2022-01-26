@@ -1,0 +1,7 @@
+{% extends "shop/base.html" %}
+{% block title %}Payment canceled{% endblock %}
+{% block content %}
+  <h1>Your payment has not been processed</h1>
+  <p>There was a problem processing your payment.</p>
+  <h3>Please Try Once Again. <a href="{% url 'shop:product_list' %}" class="button">Continue Shopping</a></h3>
+{% endblock %}
